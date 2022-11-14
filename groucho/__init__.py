@@ -50,7 +50,7 @@ def get_letter_from_index(index):
 
 def bin_to_dec(binaryNumber):
     """
-    Converts a base 2 number to a base 10 number.
+    Converts a base 2 number as a string to a base 10 number as an integer.
     """
     origDigitsList = list(binaryNumber)
     digitsList = reverse_array(origDigitsList)
@@ -66,12 +66,12 @@ def bin_to_dec(binaryNumber):
             """
             DO NOTHING!
             """
-    result = str(decimalSum)
+    result = decimalSum
     return result
 
 def dec_to_bin(decimalNumber):
     """
-    Converts a base 10 number to a base 2 number.
+    Converts a base 10 number as an integer to a base 2 number as a string.
     """
     endChars = []
     dec = decimalNumber
@@ -89,7 +89,7 @@ def dec_to_bin(decimalNumber):
 
 def hex_to_dec(hexNumber):
     """
-    Converts a base 2 number to a base 10 number.
+    Converts a base 16 number as a string to a base 10 number as an integer.
     """
     base = 16;
     result = 0;
@@ -106,7 +106,7 @@ def hex_to_dec(hexNumber):
 
 def is_bin(expr):
     """
-    Checks whether the supplied number is 
+    Checks whether the supplied number string is 
     a binary number and returns a boolean based on this.
     """
     charList = ['1','0']
@@ -124,7 +124,7 @@ def is_bin(expr):
 def is_int(expr):
     """
     A function to check whether a string
-    is an integer.
+    is an integer. Returns a boolean.
     """
     result = False
     if expr.isnumeric():
