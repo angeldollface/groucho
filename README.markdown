@@ -26,6 +26,14 @@ To use *Groucho* on your own system with your own projects, run the following co
 python -m pip install git+https://github.com/angeldollface/groucho
 ```
 
+### IMPORTING *GROUCHO*
+
+To import *Groucho*'s functions into your Python code, add this line to the top of your code:
+
+```python
+from groucho import *
+```
+
 ### API
 
 - `reverse_array(array)`: Reverses the order of an array and returns the reversed array.

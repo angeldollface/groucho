@@ -1,7 +1,7 @@
 # GROUCHO by Alexander Abraham, a.k.a. "Angel Dollface".
 # Licensed under the MIT license.
 
-from pyzeppo import *
+from groucho import *
 
 def testAll():
     """
