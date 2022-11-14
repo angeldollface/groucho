@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "groucho"
+version = "1.0.0"
+description = "Convert between numbers of different bases."
+authors = ["angeldollface <angeldollface666@gmail.com>"]
+readme = "README.markdown"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
