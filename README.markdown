@@ -43,7 +43,7 @@ from groucho import *
 - `dec_to_bin(decimalNumber)`: Converts a base 10 number as an integer to a base 2 number as a string.
 - `hex_to_dec(hexNumber)`: Converts a base 16 number as a string to a base 10 number as an integer.
 - `is_bin(expr)`: Checks whether the supplied number string is a binary number and returns a boolean based on this.
-- `is_int(expr`: A function to check whether a string is an integer. Returns a boolean.
+- `is_int(expr)`: A function to check whether a string is an integer. Returns a boolean.
 
 ### TEST THE EXAMPLE
 
