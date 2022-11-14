@@ -1,1 +1,1 @@
-git+https://github.com/angeldollface/pyzeppo
+git+https://github.com/angeldollface/groucho
