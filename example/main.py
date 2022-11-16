@@ -30,4 +30,5 @@ def testAll():
 def main():
     testAll()
 
-main()
+if __name__ == '__main__':
+    main()
