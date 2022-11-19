@@ -2,7 +2,7 @@
 name = "groucho"
 version = "1.0.0"
 description = "Convert between numbers of different bases."
-authors = ["angeldollface <angeldollface666@gmail.com>"]
+authors = ["angeldollface"]
 readme = "README.markdown"
 
 [tool.poetry.dependencies]
